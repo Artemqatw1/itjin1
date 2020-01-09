@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<!-- saved from url=(0244)https://secure.rentalcars.com/partners/integrations/stand-alone-app/?preflang=en&integration=stand-alone&enable-return-checkbox=true&rcid=_ga&primary=0067c7&primary-text=e6e6e6&text=ffffff&button-size=large&fts=true&return-checkbox-enabled=true -->
+<html class="js supports inlinesvg backgroundsize boxshadow csstransforms csstransforms3d csstransitions ng-scope" lang="en" ng-app="searchApp" style=""><!--<![endif]--><head ng-controller="HeadCtrl" class="ng-scope"><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><style type="text/css">@charset "UTF-8";[ng\:cloak],[ng-cloak],[data-ng-cloak],[x-ng-cloak],.ng-cloak,.x-ng-cloak,.ng-hide{display:none !important;}ng\:form{display:block;}.ng-animate-block-transitions{transition:0s all!important;-webkit-transition:0s all!important;}.ng-hide-add-active,.ng-hide-remove{display:block!important;}</style>
+
+<title>Search for car rental</title>
+<!--<base href="/partners/integrations/stand-alone-app/">--><base href="."> <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<link href="./css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="./base.css">
+<link id="css-hook" rel="stylesheet" ng-href=""><style>body {color:#ffffff;}.button, .is-startrange .pika-button, .is-endrange .pika-button, .pika-button:hover, .is-inrange .pika-button, .is-inrange .pika-button:hover {color:#e6e6e6;}.button, .is-startrange .pika-button, .is-endrange .pika-button {background:#0067c7;}.button:hover, .button:focus, .pika-button:hover, .is-inrange .pika-button:hover {background:#0071da;}.is-inrange .pika-button {background:#007ff6;}.button:active {background:#0060bb;}.element-wrap .icon-calendar {color:#0067c7;}.button {font-size:18px;padding:10px 24px;}</style>
+<!-- ngIf: stylesheets --><link rel="stylesheet" ng-href="css/media-queries.css" ng-if="stylesheets" css-loaded="" ng-repeat="stylesheet in stylesheets" class="ng-scope" href="./media-queries.css"><!-- end ngIf: stylesheets --><!-- end ngRepeat: stylesheet in stylesheets --><!-- ngRepeat: stylesheet in stylesheets -->
+<!--[if lt IE 9]>
+      <script>
+        document.createElement("ng-view");
+      </script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
+      <script src="https://secure.rentalcars.com/js/widget/rw-html5shiv.min.905ad.1.js"></script>
+      <script
+        type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/es5-shim/4.1.10/es5-shim.min.js"
+      ></script>
+    <![endif]-->
+<script type="text/javascript" async="" src="./adrum-ext.99c2fcc5ccc30ea4d38a1a74eeb7a6a6.js.Без названия"></script><script type="text/javascript" async="" src="./gtm.js.Без названия"></script><script type="text/javascript" async="" src="./analytics.js.Без названия"></script><script async="" src="./gtm.js(1).Без названия"></script><script src="./app.min.js.Без названия"></script>
+</head>
+<body>
+<!-- ngView: undefined --><ng-view class="ng-scope"><div search-panel="" class="ng-scope"><div resize="" class="search-panel search-panel--_ga search-panel--text search-panel--radio" ng-class="additionalClasses"><h2 class="ng-binding">Search for Car Hire</h2><form role="form" ng-submit="submit()" class="ng-pristine ng-valid"><div class="form-group form-group--radio form-group--return-checked" ng-class="{&#39;form-group--return-checked&#39;: enableReturnCheckbox &amp;&amp; returnChecked}" ng-hide="returnType === &#39;checkbox&#39;"><label class="input-label radio-label radio-label--pickup ng-binding"><input ng-model="locationFrame" selected="" type="radio" name="radio" value="pickup" class="ng-pristine ng-valid">Pick up</label><label class="input-label radio-label radio-label--dropoff ng-binding"><input ng-model="locationFrame" type="radio" name="radio" value="dropoff" class="ng-pristine ng-valid">Drop off</label></div><!-- ngInclude: 'partials/locale/' + localeView + '.html' --><div class="locale-include ng-scope" ng-include="&#39;partials/locale/&#39; + localeView + &#39;.html&#39;"><div class="locations-group-wrap ng-scope"><div class="locations-group locations-group--pickup locations-group--active" ng-class="{&#39;locations-group--active&#39;: locationFrame === &#39;pickup&#39;}"><div class="form-group form-group--fts" ng-class="{&#39;has-error&#39;: errors.fts}"><h4 class="ng-binding">Pick up</h4><div class="element-wrap element-wrap--text element-wrap--fts" ng-class="{&#39;has-focus&#39;: ftsPickFocus}"><span class="icon icon-magnify"></span> <input spellcheck="" ng-focus="ftsPickFocus = true" ng-blur="ftsPickFocus = false" ng-model="ftsPick" placeholder="Pick up location" typeahead="match as match.label for match in getFTSLocation($viewValue)" typeahead-wait-ms="500" typeahead-min-length="3" typeahead-loading="loadingLocations" typeahead-on-select="selectedFTS($item, true)" typeahead-no-results="noResults" class="form-control ng-pristine ng-valid" aria-autocomplete="list" aria-expanded="false" aria-owns="typeahead-00D-4834"><ul class="fts-menu ng-isolate-scope ng-hide" ng-show="isOpen()" ng-style="{top: position.top - 1 +&#39;px&#39;, left: position.left + &#39;px&#39;}" style="display: block; top: -1px;" role="listbox" aria-hidden="true" typeahead-popup="" id="typeahead-00D-4834" matches="matches" active="activeIdx" select="select(activeIdx)" query="query" position="position"><!-- ngRepeat: match in matches track by $index --></ul></div></div><i ng-show="loadingLocations" class="glyphicon glyphicon-refresh ng-hide"></i><div ng-show="noResults" class="ng-hide"><i class="glyphicon glyphicon-remove"></i> No Results Found</div></div><div class="locations-group locations-group--dropoff" ng-class="{&#39;locations-group--active&#39;: locationFrame === &#39;dropoff&#39;}"><div class="form-group form-group--fts" ng-class="{&#39;has-error&#39;: errors.fts}"><h4 class="ng-binding">Drop off</h4><div class="element-wrap element-wrap--text element-wrap--fts" ng-class="{&#39;has-focus&#39;: ftsDropFocus}"><span class="icon icon-magnify"></span> <input spellcheck="" ng-focus="ftsDropFocus = true" ng-blur="ftsDropFocus = false" ng-model="ftsDrop" placeholder="Drop off location" typeahead="match as match.label for match in getFTSLocation($viewValue)" typeahead-wait-ms="500" typeahead-min-length="3" typeahead-loading="loadingLocations" typeahead-on-select="selectedFTS($item, false)" typeahead-no-results="noResults" class="form-control ng-pristine ng-valid" aria-autocomplete="list" aria-expanded="false" aria-owns="typeahead-00E-4971"><ul class="fts-menu ng-isolate-scope ng-hide" ng-show="isOpen()" ng-style="{top: position.top - 1 +&#39;px&#39;, left: position.left + &#39;px&#39;}" style="display: block; top: -1px;" role="listbox" aria-hidden="true" typeahead-popup="" id="typeahead-00E-4971" matches="matches" active="activeIdx" select="select(activeIdx)" query="query" position="position"><!-- ngRepeat: match in matches track by $index --></ul></div></div><i ng-show="loadingLocations" class="glyphicon glyphicon-refresh ng-hide"></i><div ng-show="noResults" class="ng-hide"><i class="glyphicon glyphicon-remove"></i> No Results Found</div></div></div></div><div class="form-group form-group--return-check form-group--checkbox" ng-show="enableReturnCheckbox || returnType === &#39;checkbox&#39;"><label class="input-label checkbox-label ng-binding"><input type="checkbox" ng-init="returnCheckbox = true" ng-change="returnCheckboxChange()" ng-model="returnCheckbox" class="ng-pristine ng-valid"> Return car to the same location</label></div><div class="date-time-group date-time-group--pickup" ng-class="{&#39;has-error&#39;: errors.date}"><div class="form-group form-group--date"><label class="input-label ng-binding">Pick up Date</label><div class="element-wrap element-wrap--text element-wrap--pikaday" ng-class="{&#39;has-focus&#39;: pikaday.pickup.focus}"><input readonly="" is-begin="true" on-select="dateChanged(&#39;pickup&#39;, date, pikaday)" pikaday="pikaday.pickup" class="ng-isolate-scope"> <span ng-click="pikaday.pickup.show()" class="icon icon-calendar"></span></div></div><div class="form-group form-group--time"><label class="input-label ng-binding">Time</label><div class="element-wrap element-wrap--select element-wrap--hour ng-isolate-scope" select-replace="" selected-hour="form.puHour" hours=""><span class="element-value element-value--select ng-binding">10</span> <span class="icon icon-chevron-down"></span><select ng-model="selected" ng-init="selected = { name: &#39;10&#39;, value: 10 }; selectedHour = selected.value;" ng-change="selectedHour = selected.value" ng-options="hour.name for hour in hours track by hour.value" class="ng-pristine ng-valid"><option value="0" label="00">00</option><option value="1" label="01">01</option><option value="2" label="02">02</option><option value="3" label="03">03</option><option value="4" label="04">04</option><option value="5" label="05">05</option><option value="6" label="06">06</option><option value="7" label="07">07</option><option value="8" label="08">08</option><option value="9" label="09">09</option><option value="10" selected="selected" label="10">10</option><option value="11" label="11">11</option><option value="12" label="12">12</option><option value="13" label="13">13</option><option value="14" label="14">14</option><option value="15" label="15">15</option><option value="16" label="16">16</option><option value="17" label="17">17</option><option value="18" label="18">18</option><option value="19" label="19">19</option><option value="20" label="20">20</option><option value="21" label="21">21</option><option value="22" label="22">22</option><option value="23" label="23">23</option></select></div><div class="element-wrap element-wrap--select element-wrap--minute ng-isolate-scope" select-replace="" selected-minute="form.puMinute" minutes=""><span class="element-value element-value--select ng-binding">30</span> <span class="icon icon-chevron-down"></span><select ng-model="selected" ng-init="selected = { name: &#39;30&#39;, value: 30 }; selectedMinute = selected.value;" ng-change="selectedMinute = selected.value" ng-options="minute.name for minute in minutes track by minute.value" class="ng-pristine ng-valid"><option value="?" selected="selected" label=""></option><option value="00" label="00">00</option><option value="15" label="15">15</option><option value="30" label="30">30</option><option value="45" label="45">45</option></select></div></div></div><div class="date-time-group date-time-group--dropoff" ng-class="{&#39;has-error&#39;: errors.date}"><div class="form-group form-group--date"><label class="input-label ng-binding">Drop off Date</label><div class="element-wrap element-wrap--text element-wrap--pikaday" ng-class="{&#39;has-focus&#39;: pikaday.dropoff.focus}"><input readonly="" is-end="true" on-select="dateChanged(&#39;dropoff&#39;, date, pikaday)" pikaday="pikaday.dropoff" class="ng-isolate-scope"> <span ng-click="pikaday.dropoff.show()" class="icon icon-calendar"></span></div></div><div class="form-group form-group--time"><label class="input-label ng-binding">Time</label><div class="element-wrap element-wrap--select element-wrap--hour ng-isolate-scope" select-replace="" selected-hour="form.doHour" hours=""><span class="element-value element-value--select ng-binding">10</span> <span class="icon icon-chevron-down"></span><select ng-model="selected" ng-init="selected = { name: &#39;10&#39;, value: 10 }; selectedHour = selected.value;" ng-change="selectedHour = selected.value" ng-options="hour.name for hour in hours track by hour.value" class="ng-pristine ng-valid"><option value="0" label="00">00</option><option value="1" label="01">01</option><option value="2" label="02">02</option><option value="3" label="03">03</option><option value="4" label="04">04</option><option value="5" label="05">05</option><option value="6" label="06">06</option><option value="7" label="07">07</option><option value="8" label="08">08</option><option value="9" label="09">09</option><option value="10" selected="selected" label="10">10</option><option value="11" label="11">11</option><option value="12" label="12">12</option><option value="13" label="13">13</option><option value="14" label="14">14</option><option value="15" label="15">15</option><option value="16" label="16">16</option><option value="17" label="17">17</option><option value="18" label="18">18</option><option value="19" label="19">19</option><option value="20" label="20">20</option><option value="21" label="21">21</option><option value="22" label="22">22</option><option value="23" label="23">23</option></select></div><div class="element-wrap element-wrap--select element-wrap--minute ng-isolate-scope" select-replace="" selected-minute="form.doMinute" minutes=""><span class="element-value element-value--select ng-binding">30</span> <span class="icon icon-chevron-down"></span><select ng-model="selected" ng-init="selected = { name: &#39;30&#39;, value: 30 }; selectedMinute = selected.value;" ng-change="selectedMinute = selected.value" ng-options="minute.name for minute in minutes track by minute.value" class="ng-pristine ng-valid"><option value="?" selected="selected" label=""></option><option value="00" label="00">00</option><option value="15" label="15">15</option><option value="30" label="30">30</option><option value="45" label="45">45</option></select></div></div></div><div class="form-group form-group--age-check form-group--checkbox" ng-show="ageCheck"><label class="input-label checkbox-label ng-binding"><input type="checkbox" ng-init="ageCheck = true" ng-model="ageCheck" class="ng-pristine ng-valid"> Driver aged between 30 and 65</label></div><div class="form-group form-group--age ng-hide" ng-show="!ageCheck" ng-class="{&#39;has-error&#39;: errors.driversAge}"><label class="input-label ng-binding">Driver's age</label><div class="element-wrap element-wrap--text element-wrap--age" ng-class="{&#39;has-focus&#39;: age.focus}"><input number="" ng-init="form.driversAge = 30" ng-focus="age.focus = true" ng-blur="age.focus = false" ng-model="form.driversAge" class="ng-pristine ng-valid"></div></div><div class="form-group form-group--button"><button class="button ng-binding" type="submit" href="#">Search</button></div></form></div></div></ng-view>
+
+<script type="text/javascript">
+      /* get paramater by name */
+      function getParameterByName(name, url) {
+        if (!url) url = window.location.href;
+        name = name.replace(/[\[\]]/g, "\\$&");
+        var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
+          results = regex.exec(url);
+        if (!results) return null;
+        if (!results[2]) return "";
+        return decodeURIComponent(results[2].replace(/\+/g, " "));
+      }
+      /* end of get paramater by name */
+      /* dataLayer */
+      dataLayer = [
+        {
+          pagename: "stand-alone-app",
+          affiliateCode: getParameterByName("affiliateCode"),
+          rcid: getParameterByName("rcid"),
+          language: getParameterByName("preflang"),
+          adcamp: getParameterByName("camp"),
+          adplat: getParameterByName("plat"),
+          adco: "",
+          cor: getParameterByName("cor"),
+          protocol: "https:" == document.location.protocol ? "https" : "http",
+          displayCurrency: getParameterByName("prefcurrency"),
+          channel: "Affiliates",
+          utmctr: getParameterByName("utmctr"),
+          utmcct: getParameterByName("utmcct"),
+          utmccn: getParameterByName("utmccn"),
+          utmcsr: getParameterByName("utmcsr"),
+          utmcmd: getParameterByName("utmcmd"),
+          __utma: getParameterByName("__utma"),
+          __utmb: getParameterByName("__utmb"),
+          __utmc: getParameterByName("__utmc"),
+          __utmx: getParameterByName("__utmx"),
+          __utmz: getParameterByName("__utmz"),
+          __utmv: getParameterByName("__utmv"),
+          __utmk: getParameterByName("__utmk"),
+          __ga: getParameterByName("_ga")
+        }
+      ];
+      /* end of dataLayer */
+    </script>
+
+
+<script>
+      (function(w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
+        var f = d.getElementsByTagName(s)[0],
+          j = d.createElement(s),
+          dl = l != "dataLayer" ? "&l=" + l : "";
+        j.async = true;
+        j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+        f.parentNode.insertBefore(j, f);
+      })(window, document, "script", "dataLayer", "GTM-ND9GV5");
+    </script>
+
+
+<noscript><iframe
+        src="https://www.googletagmanager.com/ns.html?id=GTM-ND9GV5"
+        height="0"
+        width="0"
+        style="display:none;visibility:hidden"
+      ></iframe
+    ></noscript>
+
+
+
+<div class="pika-single is-hidden is-bound" style="position: static; left: auto; top: auto;"></div><div class="pika-single is-hidden is-bound" style="position: static; left: auto; top: auto;"></div><script type="text/javascript" id="">function getCookieKeys(){var a=[];document.cookie.split(";").forEach(function(b){a.push(b.split("\x3d")[0].trim())});return a}var cookieKeys=getCookieKeys(),webStorageKeys=Object.keys(localStorage).concat(Object.keys(sessionStorage)),_gaq=_gaq||[];_gaq.push(["_trackEvent","cookieKeys","snapshot",cookieKeys.join(","),cookieKeys.length,!0]);_gaq.push(["_trackEvent","webStorageKeys","snapshot",webStorageKeys.join(","),webStorageKeys.length,!0]);</script><div style="display: none; visibility: hidden;"><script charset="UTF-8">window["adrum-start-time"]=(new Date).getTime();(function(a){a.appKey="AD-AAB-AAK-BUH";a.adrumExtUrlHttp="http://cdn.appdynamics.com";a.adrumExtUrlHttps="https://cdn.appdynamics.com";a.beaconUrlHttp="http://col.eum-appdynamics.com";a.beaconUrlHttps="https://col.eum-appdynamics.com";a.xd={enable:!0}})(window["adrum-config"]||(window["adrum-config"]={}));
+"https:"===document.location.protocol?document.write(unescape("%3Cscript")+" src\x3d'https://cdn.appdynamics.com/adrum/adrum-4.4.3.717.js'  type\x3d'text/javascript' charset\x3d'UTF-8'"+unescape("%3E%3C/script%3E")):document.write(unescape("%3Cscript")+" src\x3d'http://cdn.appdynamics.com/adrum/adrum-4.4.3.717.js'  type\x3d'text/javascript' charset\x3d'UTF-8'"+unescape("%3E%3C/script%3E"));</script><script src="./adrum-4.4.3.717.js.Без названия" type="text/javascript" charset="UTF-8"></script></div><div><iframe id="cross-domain-store-server-iframe" src="./adrum-xd.99c2fcc5ccc30ea4d38a1a74eeb7a6a6.html" width="0" height="0" tabindex="-1" title="empty" style="display: none;"></iframe></div></body></html>
